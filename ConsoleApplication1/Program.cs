@@ -16,7 +16,14 @@ namespace ConsoleApplication1
                     s = Console.ReadLine();
                     if (s == "exit") break;
                     n = new Nijikannsuu(s.Split(' '));
-                    Console.WriteLine(n.solvePs() + "," + n.solveNs());
+                    if (n.solveNs() == n.solvePs())
+                    {
+                        Console.WriteLine(n.solveNs());
+                    }
+                    else
+                    { 
+                        Console.WriteLine(n.solvePs() + "," + n.solveNs());
+                    }
                 }
                 catch (Exception)
                 {
@@ -37,8 +44,7 @@ namespace ConsoleApplication1
             double[] b = new double[3];
             foreach (string s in a)
             {
-                b[x] = Convert.ToDouble(s);
-                x++;
+                b[x++] = Convert.ToDouble(s);
             }
             this.a = b[0];
             this.b = b[1];
