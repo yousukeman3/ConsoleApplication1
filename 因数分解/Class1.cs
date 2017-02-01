@@ -11,15 +11,15 @@ namespace yousukeman3
         /// <summary>
         /// 二次関数を扱うためのクラスです。ローマ字でごめんなさい。
         /// </summary>
-        class Nijikannsuu
+        public class Nijikannsuu
         {
             /// <summary>
             /// 各項の係数を保持するフィールドですが<c>a</c>,<c>b</c>,<c>c</c>プロパティがあるので使用できないようにしています。
-            /// 詳しい説明は<see cref="a" />,<see cref="b"/>,<see cref="c"/>をご覧ください。
+            /// 詳しい説明は<see cref="a" />,<see cref="b" />,<see cref="c" />をご覧ください。
             /// </summary>
             private double a_, b_, c_;
             /// <summary>
-            /// <see cref="Nijikannsuu"/> クラスのコンストラクタです。
+            ///   <see cref="Nijikannsuu" /> クラスのコンストラクタです。
             /// </summary>
             /// <param name="a">二次方程式の各項の係数を降べきの順に突っ込んでください。</param>
             public Nijikannsuu(string[] a)
@@ -35,7 +35,7 @@ namespace yousukeman3
                 this.c = b[2];
             }
             /// <summary>
-            /// Initializes a new instance of the <see cref="Nijikannsuu"/> class.
+            /// <see cref="Nijikannsuu" /> のコンストラクタです。
             /// </summary>
             /// <param name="a">二次関数のx^2の項を表す数値</param>
             /// <param name="b">二次関数のxの項を表す数値</param>
@@ -47,7 +47,7 @@ namespace yousukeman3
                 this.c = c;
             }
             /// <summary>
-            /// を保持するプロパティ
+            /// 判別式の解を取得するためのプロパティです。
             /// </summary>
             public double juge
             {
@@ -57,7 +57,7 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// の真偽値を保持するプロパティ
+            /// 判別式の正負を真偽値で取得するためのプロパティです。
             /// </summary>
             public bool jugeB
             {
@@ -67,7 +67,7 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// を保持するプロパティ
+            /// 二次関数のx^2の項の値を保持するプロパティです。
             /// </summary>
             public double a
             {
@@ -81,7 +81,7 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// を保持するプロパティ
+            /// 二次関数のxの項を保持するプロパティです。
             /// </summary>
             public double b
             {
@@ -95,7 +95,7 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// を保持するプロパティ
+            /// 二次関数の整数項を保持するプロパティです。
             /// </summary>
             public double c
             {
@@ -109,7 +109,7 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// の文字列を取得する
+            /// 二次方程式の大きい方の解を文字列で取得する。
             /// </summary>
             /// <returns></returns>
             public string solvePs()
@@ -132,9 +132,9 @@ namespace yousukeman3
                 }
             }
             /// <summary>
-            /// の文字列を取得する
+            /// 二次方程式の大きい方の解を文字列で取得する。
             /// </summary>
-            /// <returns></returns>
+            /// <returns>二次方程式の大きい方の解を文字列で返します。</returns>
             public string solveNs()
             {
                 if (a == 0 && b != 0)

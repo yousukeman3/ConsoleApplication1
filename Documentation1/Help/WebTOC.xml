@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/30faff95-1e6c-4d89-8b92-9ec3acc683c6.htm" />
+  <HelpTOCNode Id="0d1eeb61-1a80-4795-9e5b-29b8227ef8e2" Title="Version History" Url="html/4f9f6526-9b09-4b47-83fe-04d9ed70c73b.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/d61944ab-b930-426d-aae5-edb4c3bf5a07.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="f46a9a19-673c-48f7-894c-65f38865f2d8" Title="yousukeman3.二次方程式" Url="html/7003c54a-4f75-f304-ea3f-272029cc08a7.htm">
+    <HelpTOCNode Id="188a5a7d-f3cd-4694-aa56-b9a6d291020f" Title="Nijikannsuu Class" Url="html/6865680f-7189-0955-2086-c19408cb4766.htm">
+      <HelpTOCNode Id="a3b83780-43f7-4167-a21e-10d9c634f1ee" Title="Nijikannsuu Constructor " Url="html/3075735b-fbd9-cb71-9959-adae52a9c904.htm">
+        <HelpTOCNode Title="Nijikannsuu Constructor (String[])" Url="html/f8d18774-8665-b4b6-b45e-bd12626f8ec2.htm" />
+        <HelpTOCNode Title="Nijikannsuu Constructor (Double, Double, Double)" Url="html/b7b95e2e-2a1c-2d86-78a6-457461bbfcae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25a73b7b-6c51-4987-809a-7fbf007512fd" Title="Nijikannsuu Methods" Url="html/6df2e9fd-6edf-8e30-a82c-500f9f32884d.htm">
+        <HelpTOCNode Title="solveNs Method " Url="html/d8d5123f-fb20-0462-3be2-8b6b5cf852c5.htm" />
+        <HelpTOCNode Title="solvePs Method " Url="html/671542e7-2a6a-7cf0-d16b-0b8dabe77082.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e790cc6-de07-430a-a5ea-e5269182b510" Title="Nijikannsuu Properties" Url="html/b7da50d3-2715-5300-d087-51009a61f495.htm">
+        <HelpTOCNode Title="a Property " Url="html/8311b89b-c2a7-b444-031d-24fdb0aaca44.htm" />
+        <HelpTOCNode Title="b Property " Url="html/1f8af560-4da0-8176-3257-2c31a0dfc34f.htm" />
+        <HelpTOCNode Title="c Property " Url="html/79ea7ba4-13f0-862c-5d2f-47cbef028db0.htm" />
+        <HelpTOCNode Title="juge Property " Url="html/f0f851a0-c6e5-d173-10e9-018bb1a96463.htm" />
+        <HelpTOCNode Title="jugeB Property " Url="html/4bde3119-7c9a-1e63-45c6-6a09e3c7b67e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
