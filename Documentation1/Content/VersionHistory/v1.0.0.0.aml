@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d61944ab-b930-426d-aae5-edb4c3bf5a07" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Version [TODO: Version] was released on [TODO: Date].
+			</para>
+		</introduction>
+
+		<section>
+			<title>Changes in This Release</title>
+			<content>
+
+				<list class="bullet">
+					<listItem>
+						<para>[TODO: Add change items here]</para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="4f9f6526-9b09-4b47-83fe-04d9ed70c73b" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>

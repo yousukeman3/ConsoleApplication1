@@ -101,11 +101,11 @@ public string solvePs()
         {
             if (a == 0 && b != 0)
             {
-                return Convert.ToString(-c / b);
+                return "一次方程式です。"+Convert.ToString(-c / b);
             }
             else if (a == 0 && b == 0)
             {
-                return Convert.ToString(c);
+                return "二次方程式ではありません。　";
             }
             else if (jugeB)
             {
@@ -120,11 +120,11 @@ public string solveNs()
         {
             if (a == 0 && b != 0)
             {
-                return Convert.ToString(-c / b);
+                return "一次方程式です。" + Convert.ToString(-c / b);
             }
-            else if (a == 0 && b == 0)
+            else if(a == 0&&b==0)
             {
-                return Convert.ToString(c);
+                return "二次方程式ではありません。　";
             }
             else if (jugeB)
             {
@@ -135,5 +135,9 @@ public string solveNs()
             return Convert.ToString(-b / (2 * a)) + "-" + Convert.ToString(Math.Sqrt(-juge) / 2 * a) + "i";
             }
         }
+    }
+    class sosuu
+    {
+
     }
 }
