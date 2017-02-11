@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "因数分解", "因数分�
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation1", "Documentation1\Documentation1.shfbproj", "{5A0B8BCC-F5A5-4C50-9B0F-F09FE5EDB758}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "便利ツール", "便利ツール\便利ツール.csproj", "{083AF214-1600-4222-8669-D6CC1C5B9C93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5A0B8BCC-F5A5-4C50-9B0F-F09FE5EDB758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A0B8BCC-F5A5-4C50-9B0F-F09FE5EDB758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A0B8BCC-F5A5-4C50-9B0F-F09FE5EDB758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083AF214-1600-4222-8669-D6CC1C5B9C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083AF214-1600-4222-8669-D6CC1C5B9C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083AF214-1600-4222-8669-D6CC1C5B9C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083AF214-1600-4222-8669-D6CC1C5B9C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

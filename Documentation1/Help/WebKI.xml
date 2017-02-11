@@ -1,32 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
-  <HelpKINode Title="a property" Url="html/8311b89b-c2a7-b444-031d-24fdb0aaca44.htm" />
-  <HelpKINode Title="b property" Url="html/1f8af560-4da0-8176-3257-2c31a0dfc34f.htm" />
-  <HelpKINode Title="c property" Url="html/79ea7ba4-13f0-862c-5d2f-47cbef028db0.htm" />
-  <HelpKINode Title="juge property" Url="html/f0f851a0-c6e5-d173-10e9-018bb1a96463.htm" />
-  <HelpKINode Title="jugeB property" Url="html/4bde3119-7c9a-1e63-45c6-6a09e3c7b67e.htm" />
-  <HelpKINode Title="Nijikannsuu class">
-    <HelpKINode Title="Nijikannsuu Class" Url="html/6865680f-7189-0955-2086-c19408cb4766.htm" />
-    <HelpKINode Title="about Nijikannsuu class" Url="html/6865680f-7189-0955-2086-c19408cb4766.htm" />
-    <HelpKINode Title="constructor" Url="html/3075735b-fbd9-cb71-9959-adae52a9c904.htm" />
-    <HelpKINode Title="methods" Url="html/6df2e9fd-6edf-8e30-a82c-500f9f32884d.htm" />
-    <HelpKINode Title="properties" Url="html/b7da50d3-2715-5300-d087-51009a61f495.htm" />
+  <HelpKINode Title="a property" Url="html/c8d8943a-35fb-da7a-1bda-c1328771e814.htm" />
+  <HelpKINode Title="add_length(Of T) method" Url="html/0dddb71f-55f9-677f-868e-ebe7561f2cd1.htm" />
+  <HelpKINode Title="add_length&lt;T&gt; method" Url="html/0dddb71f-55f9-677f-868e-ebe7561f2cd1.htm" />
+  <HelpKINode Title="b property" Url="html/228c5af0-5ca7-a246-5ea4-fe9e5dfa9fb5.htm" />
+  <HelpKINode Title="benriTools class">
+    <HelpKINode Title="benriTools Class" Url="html/367d1b64-2f14-1cd0-8672-9c8fc7657bbf.htm" />
+    <HelpKINode Title="about benriTools class" Url="html/367d1b64-2f14-1cd0-8672-9c8fc7657bbf.htm" />
+    <HelpKINode Title="methods" Url="html/28f9dbfa-7265-9607-2841-56179d6562d0.htm" />
   </HelpKINode>
-  <HelpKINode Title="Nijikannsuu.a property" Url="html/8311b89b-c2a7-b444-031d-24fdb0aaca44.htm" />
-  <HelpKINode Title="Nijikannsuu.b property" Url="html/1f8af560-4da0-8176-3257-2c31a0dfc34f.htm" />
-  <HelpKINode Title="Nijikannsuu.c property" Url="html/79ea7ba4-13f0-862c-5d2f-47cbef028db0.htm" />
-  <HelpKINode Title="Nijikannsuu.juge property" Url="html/f0f851a0-c6e5-d173-10e9-018bb1a96463.htm" />
-  <HelpKINode Title="Nijikannsuu.jugeB property" Url="html/4bde3119-7c9a-1e63-45c6-6a09e3c7b67e.htm" />
-  <HelpKINode Title="Nijikannsuu.Nijikannsuu constructor" Url="html/3075735b-fbd9-cb71-9959-adae52a9c904.htm" />
-  <HelpKINode Title="Nijikannsuu.solveNs method" Url="html/d8d5123f-fb20-0462-3be2-8b6b5cf852c5.htm" />
-  <HelpKINode Title="Nijikannsuu.solvePs method" Url="html/671542e7-2a6a-7cf0-d16b-0b8dabe77082.htm" />
-  <HelpKINode Title="solveNs method" Url="html/d8d5123f-fb20-0462-3be2-8b6b5cf852c5.htm" />
-  <HelpKINode Title="solvePs method" Url="html/671542e7-2a6a-7cf0-d16b-0b8dabe77082.htm" />
+  <HelpKINode Title="benriTools.add_length(Of T) method" Url="html/0dddb71f-55f9-677f-868e-ebe7561f2cd1.htm" />
+  <HelpKINode Title="benriTools.add_length&lt;T&gt; method" Url="html/0dddb71f-55f9-677f-868e-ebe7561f2cd1.htm" />
+  <HelpKINode Title="c property" Url="html/1a05e025-d121-3001-1238-fab8471d5216.htm" />
+  <HelpKINode Title="juge property" Url="html/b386c300-325f-753f-769a-06f230dbf89b.htm" />
+  <HelpKINode Title="jugeB property" Url="html/82353e08-1b3e-06af-9a59-12175df6bc78.htm" />
+  <HelpKINode Title="Nijikannsuu class">
+    <HelpKINode Title="Nijikannsuu Class" Url="html/4034058c-d39b-6a9e-043b-7319c6096dd6.htm" />
+    <HelpKINode Title="about Nijikannsuu class" Url="html/4034058c-d39b-6a9e-043b-7319c6096dd6.htm" />
+    <HelpKINode Title="constructor" Url="html/649baded-b2e7-0bb0-26fb-87f4bca8802d.htm" />
+    <HelpKINode Title="methods" Url="html/49d51546-c9f2-b32d-3f12-6679bb52c231.htm" />
+    <HelpKINode Title="properties" Url="html/6ebd91c0-a455-6088-df63-8377f7ba4df0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nijikannsuu.a property" Url="html/c8d8943a-35fb-da7a-1bda-c1328771e814.htm" />
+  <HelpKINode Title="Nijikannsuu.b property" Url="html/228c5af0-5ca7-a246-5ea4-fe9e5dfa9fb5.htm" />
+  <HelpKINode Title="Nijikannsuu.c property" Url="html/1a05e025-d121-3001-1238-fab8471d5216.htm" />
+  <HelpKINode Title="Nijikannsuu.juge property" Url="html/b386c300-325f-753f-769a-06f230dbf89b.htm" />
+  <HelpKINode Title="Nijikannsuu.jugeB property" Url="html/82353e08-1b3e-06af-9a59-12175df6bc78.htm" />
+  <HelpKINode Title="Nijikannsuu.Nijikannsuu constructor" Url="html/649baded-b2e7-0bb0-26fb-87f4bca8802d.htm" />
+  <HelpKINode Title="Nijikannsuu.solveNs method" Url="html/5bdb3e84-eae6-f7c4-a21d-9d4bea10e1a6.htm" />
+  <HelpKINode Title="Nijikannsuu.solvePs method" Url="html/4a71a857-bec2-1214-a87e-d61c39594cea.htm" />
+  <HelpKINode Title="solveNs method" Url="html/5bdb3e84-eae6-f7c4-a21d-9d4bea10e1a6.htm" />
+  <HelpKINode Title="solvePs method" Url="html/4a71a857-bec2-1214-a87e-d61c39594cea.htm" />
   <HelpKINode Title="version">
     <HelpKINode Title="1.0.0.0" Url="html/d61944ab-b930-426d-aae5-edb4c3bf5a07.htm" />
     <HelpKINode Title="history" Url="html/4f9f6526-9b09-4b47-83fe-04d9ed70c73b.htm" />
   </HelpKINode>
   <HelpKINode Title="Welcome" Url="html/30faff95-1e6c-4d89-8b92-9ec3acc683c6.htm" />
-  <HelpKINode Title="yousukeman3.二次方程式 namespace" Url="html/7003c54a-4f75-f304-ea3f-272029cc08a7.htm" />
-  <HelpKINode Title="yousukeman3.二次方程式.Nijikannsuu class" Url="html/6865680f-7189-0955-2086-c19408cb4766.htm" />
+  <HelpKINode Title="yousukeman3 namespace" Url="html/3cd173c1-ab07-7efa-c740-349be08e5cfd.htm" />
+  <HelpKINode Title="yousukeman3.benriTools class" Url="html/367d1b64-2f14-1cd0-8672-9c8fc7657bbf.htm" />
+  <HelpKINode Title="yousukeman3.mymath namespace" Url="html/d928aab5-c81f-e76e-0a7c-6351a41d443f.htm" />
+  <HelpKINode Title="yousukeman3.mymath.Nijikannsuu class" Url="html/4034058c-d39b-6a9e-043b-7319c6096dd6.htm" />
 </HelpKI>

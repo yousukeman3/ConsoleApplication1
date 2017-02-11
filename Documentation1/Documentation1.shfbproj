@@ -46,8 +46,14 @@
     <DocumentationSources>
       <DocumentationSource sourceFile="..\因数分解\bin\Release\因数分解.dll" />
       <DocumentationSource sourceFile="..\因数分解\bin\Release\因数分解.XML" />
+      <DocumentationSource sourceFile="..\便利ツール\bin\Release\便利ツール.dll" />
+      <DocumentationSource sourceFile="..\便利ツール\bin\Release\便利ツール.xml" />
     </DocumentationSources>
     <WorkingPath>Help\Working\</WorkingPath>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="(global)" isDocumented="True" xmlns="">yousukeman3が作ったdllをまとめるネームスペースです。</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="yousukeman3.二次方程式" isDocumented="True" xmlns="">二次方程式を解くためのクラスを置いています。</NamespaceSummaryItem>
+    </NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
