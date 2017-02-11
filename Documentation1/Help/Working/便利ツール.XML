@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>便利ツール</name>
+    </assembly>
+    <members>
+        <member name="T:yousukeman3.benriTools">
+            <summary>
+            を表すクラス・コントロール
+            </summary>
+        </member>
+        <member name="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)">
+            <summary>
+            配列の要素を追加するメソッドです。
+            </summary>
+            <remarks>特になし。</remarks>
+            <typeparam name="T">配列の型を入れてください。</typeparam>
+            <param name="length">要素を増やしたい配列です。</param>
+            <param name="add">増やしたい要素の数です。</param>
+            <returns>増やした配列を返します。</returns>
+            <permission cref="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)">per</permission>
+            <threadsafety static="true" instance="false"/>
+        </member>
+    </members>
+</doc>

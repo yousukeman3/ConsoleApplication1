@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="N:yousukeman3" />
+  <topic id="T:yousukeman3.benriTools" />
+  <topic id="Methods.T:yousukeman3.benriTools" />
+  <topic id="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)" />
+  <topic id="N:yousukeman3.mymath" />
+  <topic id="T:yousukeman3.mymath.Nijikannsuu" />
+  <topic id="Methods.T:yousukeman3.mymath.Nijikannsuu" />
+  <topic id="Properties.T:yousukeman3.mymath.Nijikannsuu" />
+  <topic id="Overload:yousukeman3.mymath.Nijikannsuu.#ctor" />
+  <topic id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.Double,System.Double,System.Double)" />
+  <topic id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String)" />
+  <topic id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String[])" />
+  <topic id="P:yousukeman3.mymath.Nijikannsuu.a" />
+  <topic id="P:yousukeman3.mymath.Nijikannsuu.b" />
+  <topic id="P:yousukeman3.mymath.Nijikannsuu.c" />
+  <topic id="P:yousukeman3.mymath.Nijikannsuu.juge" />
+  <topic id="P:yousukeman3.mymath.Nijikannsuu.jugeB" />
+  <topic id="M:yousukeman3.mymath.Nijikannsuu.solveNs" />
+  <topic id="M:yousukeman3.mymath.Nijikannsuu.solvePs" />
+</topics>

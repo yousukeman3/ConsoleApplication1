@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="便利ツール">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+    <assembly name="因数分解">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:yousukeman3">
+      <topicdata group="api" />
+      <apidata name="yousukeman3" group="namespace" />
+      <elements>
+        <element api="T:yousukeman3.benriTools" />
+      </elements>
+    </api>
+    <api id="T:yousukeman3.benriTools">
+      <topicdata group="api" />
+      <apidata name="benriTools" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="便利ツール" module="便利ツール" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:yousukeman3.benriTools">
+      <topicdata name="benriTools" group="list" subgroup="Methods" typeTopicId="T:yousukeman3.benriTools" />
+      <apidata name="benriTools" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="便利ツール" module="便利ツール" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3" />
+        <type api="T:yousukeman3.benriTools" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)">
+      <topicdata group="api" />
+      <apidata name="add_length" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <parameters>
+        <parameter name="length">
+          <arrayOf rank="1">
+            <template name="T" index="0" api="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)" />
+          </arrayOf>
+        </parameter>
+        <parameter name="add">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <template name="T" index="0" api="M:yousukeman3.benriTools.add_length``1(``0[],System.Int32)" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="便利ツール" module="便利ツール" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3" />
+        <type api="T:yousukeman3.benriTools" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="N:yousukeman3.mymath">
+      <topicdata group="api" />
+      <apidata name="yousukeman3.mymath" group="namespace" />
+      <elements>
+        <element api="T:yousukeman3.mymath.Nijikannsuu" />
+      </elements>
+    </api>
+    <api id="T:yousukeman3.mymath.Nijikannsuu">
+      <topicdata group="api" />
+      <apidata name="Nijikannsuu" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="Overload:yousukeman3.mymath.Nijikannsuu.#ctor">
+          <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String)" />
+          <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String[])" />
+          <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.Double,System.Double,System.Double)" />
+        </element>
+        <element api="P:yousukeman3.mymath.Nijikannsuu.a" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.b" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.c" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.juge" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.jugeB" />
+        <element api="M:yousukeman3.mymath.Nijikannsuu.solveNs" />
+        <element api="M:yousukeman3.mymath.Nijikannsuu.solvePs" />
+      </elements>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+      </containers>
+    </api>
+    <api id="Methods.T:yousukeman3.mymath.Nijikannsuu">
+      <topicdata name="Nijikannsuu" group="list" subgroup="Methods" typeTopicId="T:yousukeman3.mymath.Nijikannsuu" />
+      <apidata name="Nijikannsuu" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:yousukeman3.mymath.Nijikannsuu.solveNs" />
+        <element api="M:yousukeman3.mymath.Nijikannsuu.solvePs" />
+      </elements>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" />
+      </containers>
+    </api>
+    <api id="Properties.T:yousukeman3.mymath.Nijikannsuu">
+      <topicdata name="Nijikannsuu" group="list" subgroup="Properties" typeTopicId="T:yousukeman3.mymath.Nijikannsuu" />
+      <apidata name="Nijikannsuu" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:yousukeman3.mymath.Nijikannsuu.a" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.b" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.c" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.juge" />
+        <element api="P:yousukeman3.mymath.Nijikannsuu.jugeB" />
+      </elements>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" />
+      </containers>
+    </api>
+    <api id="Overload:yousukeman3.mymath.Nijikannsuu.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" allMembersTopicId="" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String)" />
+        <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String[])" />
+        <element api="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.Double,System.Double,System.Double)" />
+      </elements>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.Double,System.Double,System.Double)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:yousukeman3.mymath.Nijikannsuu.#ctor" />
+      <parameters>
+        <parameter name="a">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="b">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="c">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:yousukeman3.mymath.Nijikannsuu.#ctor" />
+      <parameters>
+        <parameter name="sdash">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String[])">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:yousukeman3.mymath.Nijikannsuu.#ctor" />
+      <parameters>
+        <parameter name="a">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="P:yousukeman3.mymath.Nijikannsuu.a">
+      <topicdata group="api" />
+      <apidata name="a" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_a" />
+      <setter name="set_a" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="P:yousukeman3.mymath.Nijikannsuu.b">
+      <topicdata group="api" />
+      <apidata name="b" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_b" />
+      <setter name="set_b" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="P:yousukeman3.mymath.Nijikannsuu.c">
+      <topicdata group="api" />
+      <apidata name="c" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_c" />
+      <setter name="set_c" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="P:yousukeman3.mymath.Nijikannsuu.juge">
+      <topicdata group="api" />
+      <apidata name="juge" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_juge" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="P:yousukeman3.mymath.Nijikannsuu.jugeB">
+      <topicdata group="api" />
+      <apidata name="jugeB" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_jugeB" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.mymath.Nijikannsuu.solveNs">
+      <topicdata group="api" />
+      <apidata name="solveNs" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+    <api id="M:yousukeman3.mymath.Nijikannsuu.solvePs">
+      <topicdata group="api" />
+      <apidata name="solvePs" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="因数分解" module="因数分解" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:yousukeman3.mymath" />
+        <type api="T:yousukeman3.mymath.Nijikannsuu" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>因数分解</name>
+    </assembly>
+    <members>
+        <member name="T:yousukeman3.mymath.Nijikannsuu">
+            <summary>
+            二次関数を扱うためのクラスです。ローマ字でごめんなさい。
+            </summary>
+        </member>
+        <member name="F:yousukeman3.mymath.Nijikannsuu.a_">
+            <summary>
+            各項の係数を保持するフィールドですが<c>a</c>,<c>b</c>,<c>c</c>プロパティがあるので使用できないようにしています。
+            詳しい説明は<see cref="P:yousukeman3.mymath.Nijikannsuu.a" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.b" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.c" />をご覧ください。
+            </summary>
+        </member>
+        <member name="F:yousukeman3.mymath.Nijikannsuu.b_">
+            <summary>
+            各項の係数を保持するフィールドですが<c>a</c>,<c>b</c>,<c>c</c>プロパティがあるので使用できないようにしています。
+            詳しい説明は<see cref="P:yousukeman3.mymath.Nijikannsuu.a" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.b" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.c" />をご覧ください。
+            </summary>
+        </member>
+        <member name="F:yousukeman3.mymath.Nijikannsuu.c_">
+            <summary>
+            各項の係数を保持するフィールドですが<c>a</c>,<c>b</c>,<c>c</c>プロパティがあるので使用できないようにしています。
+            詳しい説明は<see cref="P:yousukeman3.mymath.Nijikannsuu.a" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.b" />,<see cref="P:yousukeman3.mymath.Nijikannsuu.c" />をご覧ください。
+            </summary>
+        </member>
+        <member name="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String[])">
+            <summary>
+              <see cref="T:yousukeman3.mymath.Nijikannsuu" /> クラスのコンストラクタです。
+            </summary>
+            <param name="a">二次方程式の各項の係数を降べきの順に突っ込んでください。</param>
+        </member>
+        <member name="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.String)">
+            <summary>
+             <see cref="T:yousukeman3.mymath.Nijikannsuu"/> クラスのコンストラクタです。
+            </summary>
+            <param name="sdash">二次方程式の各項の係数を降べきの順に、<c>' '</c>で区切って突っ込んでください。</param>
+        </member>
+        <member name="M:yousukeman3.mymath.Nijikannsuu.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            <see cref="T:yousukeman3.mymath.Nijikannsuu" /> のコンストラクタです。
+            </summary>
+            <param name="a">二次関数のx^2の項を表す数値</param>
+            <param name="b">二次関数のxの項を表す数値</param>
+            <param name="c">二次関数の整数項を表す数値</param>
+        </member>
+        <member name="P:yousukeman3.mymath.Nijikannsuu.juge">
+            <summary>
+            判別式の解を取得するためのプロパティです。
+            </summary>
+        </member>
+        <member name="P:yousukeman3.mymath.Nijikannsuu.jugeB">
+            <summary>
+            判別式の正負を真偽値で取得するためのプロパティです。
+            </summary>
+        </member>
+        <member name="P:yousukeman3.mymath.Nijikannsuu.a">
+            <summary>
+            二次関数のx^2の項の値を保持するプロパティです。
+            </summary>
+        </member>
+        <member name="P:yousukeman3.mymath.Nijikannsuu.b">
+            <summary>
+            二次関数のxの項を保持するプロパティです。
+            </summary>
+        </member>
+        <member name="P:yousukeman3.mymath.Nijikannsuu.c">
+            <summary>
+            二次関数の整数項を保持するプロパティです。
+            </summary>
+        </member>
+        <member name="M:yousukeman3.mymath.Nijikannsuu.solvePs">
+            <summary>
+            二次方程式の大きい方の解を文字列で取得する。
+            </summary>
+            <returns>二次方程式の小さい方の解を文字列で返します。</returns>
+        </member>
+        <member name="M:yousukeman3.mymath.Nijikannsuu.solveNs">
+            <summary>
+            二次方程式の大きい方の解を文字列で取得する。
+            </summary>
+            <returns>二次方程式の大きい方の解を文字列で返します。</returns>
+        </member>
+        <member name="T:yousukeman3.mymath.sosuu">
+            <summary>
+            を表すクラス・コントロール
+            </summary>
+        </member>
+        <member name="M:yousukeman3.mymath.sosuu.soinsuubunnkai(System.Int32,System.Boolean)">
+            <summary>
+            を実行する・取得する
+            </summary>
+            <param name="target">を表す数値</param>
+            <param name="sosuuretu">かどうかを表す値</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
