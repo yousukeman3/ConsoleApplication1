@@ -68,10 +68,13 @@ namespace ConsoleApplication1
                     s = Console.ReadLine();
                     i = 0;
                     foreach (int sosuu_ in sosuu.soinsuubunnkai(Convert.ToInt32(s),false))
+                    {
+                        if (sosuu_ != 0)
                         {
-                        Console.WriteLine(sosuu.soinsuubunnkai(Convert.ToInt32(s), true)[i]+":"+sosuu_.ToString()+"個");
-                        i++;
+                            Console.WriteLine(sosuu.soinsuubunnkai(Convert.ToInt32(s), true)[i]+":"+sosuu_.ToString()+"個");
                         }
+                        i++;
+                    }
                 }
                 catch (Exception)
                 {
